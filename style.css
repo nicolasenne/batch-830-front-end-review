@@ -1,0 +1,58 @@
+/* TODO: design your profile with CSS */
+body {
+  background-color: rgb(233, 233, 233);
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #FF0000;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgb(172, 172, 172);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2, h3 {
+  color: rgba(13, 146, 255, 0.5);
+}
+
+.pokemon-list li {
+  color: orange;
+}
+
+img {
+  width: 200px;
+  margin-top: 50px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgb(172, 172, 172);
+}
+
+.flexbox {
+  background-color: yellow;
+  height: 500px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.square-purple {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  flex-grow: 2;
+}
+
+.square-red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  flex-grow: 1
+}
